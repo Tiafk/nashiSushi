@@ -45,6 +45,10 @@
   }
 }
 @media (max-width: 570px) {
+  .p-3 {
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+  }
   .p-3 .map {
     background-color: transparent;
     max-height: 181px;
@@ -461,13 +465,6 @@
     padding-right: 15px;
   }
 }
-@media (max-width: 570px) {
-  .p-3 {
-    box-sizing: border-box;
-    flex-direction: column-reverse;
-    padding-right: 15px;
-  }
-}
 @media (max-width: 375px) {
   .p-2 {
     align-items: start;
@@ -481,6 +478,7 @@
   width: 100%;
 }
 .header .back {
+  cursor: pointer;
   display: flex;
   align-items: center;
   margin-right: 19px;
