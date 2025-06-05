@@ -48,10 +48,12 @@
   .p-3 {
     box-sizing: border-box;
     flex-direction: column-reverse;
+    padding-right: 0;
   }
   .p-3 .map {
     background-color: transparent;
     max-height: 181px;
+    padding-right: 0;
   }
   .p-3 .map iframe {
     height: 181px;
