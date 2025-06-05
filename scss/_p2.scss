@@ -228,13 +228,6 @@
         padding-right: 15px;
     }
 }
-@media (max-width:570px) {
-    .p-3 {
-        box-sizing: border-box;
-        flex-direction: column-reverse;
-        padding-right: 15px;
-    }
-}
 @media (max-width:375px) {
     .p-2 {
         align-items: start;

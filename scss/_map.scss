@@ -50,6 +50,10 @@
 }
 
 @media (max-width:570px) {
+    .p-3 {
+        box-sizing: border-box;
+        flex-direction: column-reverse;
+    }
     .p-3 .map  {
         background-color: transparent;
         max-height: 181px;
