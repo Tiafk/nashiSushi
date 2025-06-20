@@ -5,12 +5,14 @@
     margin-bottom: 88px;
     padding-right: 16px;
     gap: 24px;
+    box-sizing: border-box;
 
     .map {
         width: 100%;
         max-width: 777px;
         height: 410px;
         background-color: #aeaeae;
+        box-sizing: border-box;
     }
     .contacts-container {
         width: 100%;

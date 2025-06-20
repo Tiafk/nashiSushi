@@ -5,12 +5,14 @@
   margin-bottom: 88px;
   padding-right: 16px;
   gap: 24px;
+  box-sizing: border-box;
 }
 .p-3 .map {
   width: 100%;
   max-width: 777px;
   height: 410px;
   background-color: #aeaeae;
+  box-sizing: border-box;
 }
 .p-3 .contacts-container {
   width: 100%;
