@@ -19,6 +19,7 @@
     .img-container {
         display: flex;
         margin-right: 20px;
+        user-select: none;
         
         .absolute-img1, 
         .absolute-img2 {

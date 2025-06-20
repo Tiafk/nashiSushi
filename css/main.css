@@ -3,6 +3,7 @@
   justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 88px;
+  padding-right: 16px;
   gap: 24px;
 }
 .p-3 .map {
@@ -79,6 +80,7 @@
 .p-1 .img-container {
   display: flex;
   margin-right: 20px;
+  user-select: none;
 }
 .p-1 .img-container .absolute-img1,
 .p-1 .img-container .absolute-img2 {
@@ -280,6 +282,7 @@
   margin-right: 20px;
 }
 .p-2 .img-container {
+  user-select: none;
   display: flex;
 }
 .p-2 .img-container .absolute-img3,
@@ -513,6 +516,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  overflow: hidden;
 }
 .main .wrapper {
   box-sizing: border-box;
