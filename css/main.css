@@ -60,6 +60,11 @@
     height: 181px;
   }
 }
+@media (max-width: 375px) {
+  .p-3 {
+    padding-right: 15px;
+  }
+}
 .p-1 {
   position: relative;
   display: flex;
@@ -372,7 +377,7 @@
   }
   .p-2 .img-container .container-img1 {
     position: absolute;
-    right: -5px;
+    right: 0;
     grid-area: img1;
     z-index: 10;
     bottom: -12%;
@@ -448,8 +453,8 @@
   }
   .p-2 .img-container .abs-text2-2 {
     transform: rotate(90deg);
-    right: -9%;
-    bottom: 0;
+    right: -7%;
+    bottom: 6px;
   }
   .p-2 .img-container {
     margin-left: 0;
@@ -516,7 +521,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 .main .wrapper {
   box-sizing: border-box;

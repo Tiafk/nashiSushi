@@ -65,3 +65,9 @@
         height: 181px;
     }
 }
+
+@media (max-width:375px) {
+    .p-3 {
+        padding-right: 15px;
+    }
+}
